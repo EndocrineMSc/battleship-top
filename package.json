@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "jest",
-    "start": "webpack serve --open jest --watch *.js",
+    "start": "webpack serve --open ",
+    "jest-watch": "jest --watch *.js",
     "build": "webpack",
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@babel/core": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
+    "@types/jest": "^29.5.12",
     "babel-jest": "^29.7.0",
     "css-loader": "^6.9.1",
     "eslint": "^8.56.0",
