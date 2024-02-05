@@ -21,3 +21,5 @@ export default class Ship {
         return this.#isSunk;
     }  
 }
+
+// test comment
