@@ -14,11 +14,5 @@
   "rules": {
     "no-plusplus": [2, { "allowForLoopAfterthoughts": true }],
     "no-use-before-define": "off"
-  },
-  "overrides": [{
-    "files": ["*.test.js"],
-    "rules": {
-      "jest/valid-expect": 0
-    }  
-  }]
+  }
 }
